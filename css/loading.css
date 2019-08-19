@@ -1,3 +1,8 @@
+.container {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 @-webkit-keyframes rotate-continuous {
   100% {
     transform: rotateZ(360deg);
