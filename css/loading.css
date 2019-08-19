@@ -1,0 +1,24 @@
+@-webkit-keyframes rotate-continuous {
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+@keyframes rotate-continuous {
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+.loading-overlay {
+  z-index: 10000 !important;
+}
+
+.loading-image {
+  display: block;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  -webkit-animation: rotate-continuous 0.6s 0s infinite linear;
+  animation: rotate-continuous 0.6s 0s infinite linear;
+}
